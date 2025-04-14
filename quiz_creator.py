@@ -48,3 +48,5 @@ while True:
   elif again in ["no","n"]:
     print("/n✅ Quiz saved to 'quiz_data.txt'. Goodbye!")
     exit()
+  else:
+    print("❌ Invalid input. Please enter 'yes' or 'no'.")

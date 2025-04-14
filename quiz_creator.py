@@ -29,3 +29,5 @@ while True:
   correct_answer = input("Correct answer (A/B/C/D): ").upper()
   if correct_answer in ['A', 'B', 'C', 'D']:
     break
+  print("❌ Please enter a valid answer: A, B, C, or D.")
+  

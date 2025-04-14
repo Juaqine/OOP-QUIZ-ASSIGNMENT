@@ -32,5 +32,12 @@ while True:
   print("❌ Please enter a valid answer: A, B, C, or D.")
 
 with open(filename, "a") as file:
-  
+  file.write("=== QUESTION START ===\n")
+  file.write(f"Q: {question}/n")
+  file.write(f"A: {choice_a/n")
+  file.write(f"B: {choice_b/n")
+  file.write(f"C: {choice_c/n")
+  file.write(f"D: {choice_d/n")
+  file.write(f"ANSWER: {correct_answer}/n")
+  file.write("=== QUESTION END ===\n\n")
   

@@ -11,3 +11,5 @@
 #if yes, continue asking questions
 #if no, end the program
 #display goodbye message
+
+filename = "quiz_data.txt"

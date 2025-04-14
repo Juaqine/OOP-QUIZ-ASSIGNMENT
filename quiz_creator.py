@@ -43,4 +43,6 @@ with open(filename, "a") as file:
 
 while True:
   again = input("➕ Add another question? (yes/no): ").lower()
+  if again in ["yes","y"]:
+    break
   

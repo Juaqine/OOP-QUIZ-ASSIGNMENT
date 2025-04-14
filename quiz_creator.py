@@ -13,3 +13,5 @@
 #display goodbye message
 
 filename = "quiz_data.txt"
+
+print("/nWelcome to the Quiz Creator!")

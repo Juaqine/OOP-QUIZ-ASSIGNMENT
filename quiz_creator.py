@@ -27,4 +27,5 @@ choice_d = input("D.) ")
 
 while True:
   correct_answer = input("Correct answer (A/B/C/D): ").upper()
-
+  if correct_answer in ['A', 'B', 'C', 'D']:
+    break

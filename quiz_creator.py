@@ -40,4 +40,7 @@ with open(filename, "a") as file:
   file.write(f"D: {choice_d/n")
   file.write(f"ANSWER: {correct_answer}/n")
   file.write("=== QUESTION END ===\n\n")
+
+while True:
+  again = input("➕ Add another question? (yes/no): ").lower()
   

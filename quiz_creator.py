@@ -30,4 +30,7 @@ while True:
   if correct_answer in ['A', 'B', 'C', 'D']:
     break
   print("❌ Please enter a valid answer: A, B, C, or D.")
+
+with open(filename, "a") as file:
+  
   

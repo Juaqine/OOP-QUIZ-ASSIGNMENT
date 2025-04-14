@@ -45,4 +45,6 @@ while True:
   again = input("➕ Add another question? (yes/no): ").lower()
   if again in ["yes","y"]:
     break
-  
+  elif again in ["no","n"]:
+    print("/n✅ Quiz saved to 'quiz_data.txt'. Goodbye!")
+    exit()

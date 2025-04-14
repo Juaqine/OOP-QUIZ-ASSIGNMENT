@@ -15,3 +15,6 @@
 filename = "quiz_data.txt"
 
 print("/nWelcome to the Quiz Creator!")
+
+while True:
+  print("/nEnter your quiz questions and choices:")

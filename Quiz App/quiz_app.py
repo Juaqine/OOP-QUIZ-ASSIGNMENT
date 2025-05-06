@@ -115,3 +115,5 @@ class QuizApp:
             return
         q = self.questions[self.current]
         self.question_label.config(text=q["question"])
+        for ch in CHOICES:
+            self.buttons[ch].config(text=f"{ch}) {q[ch.lower()]}")

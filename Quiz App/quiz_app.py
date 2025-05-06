@@ -90,3 +90,4 @@ class QuizApp:
         self.total = len(questions)
 
         self.root.title("Quiz Wars")
+        self.root.geometry("700x500")

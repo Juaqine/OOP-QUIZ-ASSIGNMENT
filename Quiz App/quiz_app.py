@@ -172,3 +172,4 @@ class TitleScreen:
         root.mainloop()
 
 root = tk.Tk()
+TitleScreen(root)

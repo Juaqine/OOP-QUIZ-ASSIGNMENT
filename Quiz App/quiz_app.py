@@ -125,3 +125,6 @@ class QuizApp:
             messagebox.showinfo("Correct!", "✅ Nice one!")
         else:
             messagebox.showinfo("Better luck next time!", f"❌ Correct answer: {correct}")
+        self.current += 1
+        self.show_question()
+

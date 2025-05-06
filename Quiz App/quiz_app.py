@@ -48,3 +48,8 @@ import random
 
 MAROON, GOLD, YELLOW, WHITE = "#800000", "#D4AF37", "#FFD700", "#FFFFFF"
 CHOICES = ["A", "B", "C", "D"]
+
+def load_questions(filename):
+    try:
+        with open(filename, "r") as f:
+            raw = f.read().strip().split("=== QUESTION START ===")

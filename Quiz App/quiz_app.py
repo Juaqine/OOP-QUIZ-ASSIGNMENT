@@ -65,4 +65,7 @@ def load_questions(filename):
             if line.startswith(("Q:", "A:", "B:", "C:", "D:", "ANSWER:")):
                 key, value = line.split(": ", 1)
                 data["question" if key == "Q" else key.lower()] = value.strip().upper() if key == "ANSWER" else value.strip()
+
+        choices = [(ch, data[ch.lower()]) for ch in CHOICES]
+        random.shuffle(choices)
         

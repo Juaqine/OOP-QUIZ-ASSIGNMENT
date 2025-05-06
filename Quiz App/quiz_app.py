@@ -79,3 +79,5 @@ def load_questions(filename):
                 new_data["answer"] = new_label
 
         questions.append(new_data)
+
+    random.shuffle(questions)

@@ -82,3 +82,5 @@ def load_questions(filename):
 
     random.shuffle(questions)
     return questions
+
+class QuizApp:

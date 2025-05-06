@@ -123,3 +123,5 @@ class QuizApp:
         if choice == correct:
             self.score += 1
             messagebox.showinfo("Correct!", "✅ Nice one!")
+        else:
+            messagebox.showinfo("Better luck next time!", f"❌ Correct answer: {correct}")

@@ -98,3 +98,4 @@ class QuizApp:
 
         self.buttons = {}
         self.build_buttons()
+        self.show_question()

@@ -150,3 +150,10 @@ class EndScreen:
         self.root = tk.Tk()
         QuizApp(self.root, questions)
         self.root.mainloop()
+
+class TitleScreen:
+    def __init__(self, root):
+        self.root = root
+        root.title("Quiz Wars")
+        root.geometry("600x400")
+        root.config(bg=MAROON)

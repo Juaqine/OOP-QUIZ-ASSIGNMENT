@@ -92,3 +92,5 @@ class QuizApp:
         self.root.title("Quiz Wars")
         self.root.geometry("700x500")
         self.root.config(bg=MAROON)
+
+        self.question_label = tk.Label(root, font=("Arial", 18), bg=MAROON, fg=YELLOW, wraplength=550)

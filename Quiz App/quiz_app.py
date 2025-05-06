@@ -84,3 +84,5 @@ def load_questions(filename):
     return questions
 
 class QuizApp:
+    def __init__(self, root, questions):
+        self.root, self.questions = root, questions

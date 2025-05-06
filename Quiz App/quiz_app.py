@@ -69,3 +69,10 @@ def load_questions(filename):
         choices = [(ch, data[ch.lower()]) for ch in CHOICES]
         random.shuffle(choices)
         
+        new_data = {"question": data["question"]}
+        correct_text = data[data["answer"].lower()]
+        for i, (label, text) in enumerate(choices):
+            new_label = CHOICES[i]
+            new_data[new_label.lower()] = text
+            if text == correct_text:
+                new_data["answer"] = new_label

@@ -99,3 +99,6 @@ class QuizApp:
         self.buttons = {}
         self.build_buttons()
         self.show_question()
+
+    def build_buttons(self):
+        frame = tk.Frame(self.root, bg=MAROON)

@@ -121,3 +121,5 @@ class QuizApp:
     def check_answer(self, choice):
         correct = self.questions[self.current]["answer"]
         if choice == correct:
+            self.score += 1
+            messagebox.showinfo("Correct!", "✅ Nice one!")

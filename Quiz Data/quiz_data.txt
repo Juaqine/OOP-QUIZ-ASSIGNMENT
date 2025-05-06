@@ -3,18 +3,18 @@ A.) October 24, 2006
 B.) July 28, 2006
 C.) December 11, 2005
 D.) April 15, 2005
-Answer: C.
+Answer: December 11, 2005
 
 Question: What is my favorite color?
 A.) Red
 B.) Purple
 C.) Blue
 D.) Yellow
-Answer: A.
+Answer: Red
 
 Question: What subject is this program for?
 A.) PLD
 B.) OOP
 C.) CHF
 D.) EDA
-Answer: B.
+Answer: OOP

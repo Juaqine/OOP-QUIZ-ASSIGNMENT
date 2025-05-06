@@ -160,3 +160,7 @@ class TitleScreen:
 
         tk.Label(root, text="Quiz Wars", font=("Arial", 32, "bold"), bg=MAROON, fg=YELLOW).pack(pady=100)
         tk.Button(root, text="Start Quiz", font=("Arial", 16), bg=GOLD, fg=MAROON, command=self.start).pack(pady=20)
+
+    def start(self):
+        questions = load_questions("quiz_data.txt")
+        

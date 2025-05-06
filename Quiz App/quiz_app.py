@@ -97,3 +97,4 @@ class QuizApp:
         self.question_label.pack(pady=30)
 
         self.buttons = {}
+        self.build_buttons()

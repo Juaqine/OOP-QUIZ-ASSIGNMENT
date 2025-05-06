@@ -138,3 +138,6 @@ class EndScreen:
 
         tk.Label(root, text="Thank you for playing!", font=("Arial", 24, "bold"), bg=MAROON, fg=YELLOW).pack(pady=50)
         tk.Label(root, text=f"Your final score: {score}/{total}", font=("Arial", 18), bg=MAROON, fg=WHITE).pack(pady=10)
+
+        tk.Button(root, text="Quit", font=("Arial", 16), bg=GOLD, fg=MAROON, command=root.quit).pack(pady=20)
+        tk.Button(root, text="Restart Quiz", font=("Arial", 16), bg=GOLD, fg=MAROON, command=self.restart).pack(pady=10)

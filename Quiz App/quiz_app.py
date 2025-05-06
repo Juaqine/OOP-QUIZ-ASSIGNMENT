@@ -147,3 +147,6 @@ class EndScreen:
         if not questions:
             messagebox.showerror("Error", "No questions found in quiz_data.txt")
             return
+        self.root = tk.Tk()
+        QuizApp(self.root, questions)
+        self.root.mainloop()

@@ -60,4 +60,9 @@ def load_questions(filename):
     for block in raw:
         if "Q:" not in block:
             continue
+        data = {}
+        for line in block.strip().splitlines():
+            if line.startswith(("Q:", "A:", "B:", "C:", "D:", "ANSWER:")):
+                key, value = line.split(": ", 1)
+                data["question" if key == "Q" else key.lower()] = value.strip().upper() if key == "ANSWER" else value.strip()
         

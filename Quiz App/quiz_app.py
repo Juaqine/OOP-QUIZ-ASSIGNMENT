@@ -104,3 +104,5 @@ class QuizApp:
         frame = tk.Frame(self.root, bg=MAROON)
         frame.pack(pady=10)
         for i, ch in enumerate(CHOICES):
+            btn = tk.Button(frame, text=ch, width=12, height=2, font=("Arial", 14),
+                            bg=GOLD, fg=MAROON, command=lambda c=ch: self.check_answer(c))

@@ -117,3 +117,7 @@ class QuizApp:
         self.question_label.config(text=q["question"])
         for ch in CHOICES:
             self.buttons[ch].config(text=f"{ch}) {q[ch.lower()]}")
+
+    def check_answer(self, choice):
+        correct = self.questions[self.current]["answer"]
+        if choice == correct:

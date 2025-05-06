@@ -170,3 +170,5 @@ class TitleScreen:
         root = tk.Tk()
         QuizApp(root, questions)
         root.mainloop()
+
+root = tk.Tk()

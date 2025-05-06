@@ -135,3 +135,6 @@ class EndScreen:
 
         root.title("End of Quiz")
         root.config(bg=MAROON)
+
+        tk.Label(root, text="Thank you for playing!", font=("Arial", 24, "bold"), bg=MAROON, fg=YELLOW).pack(pady=50)
+        tk.Label(root, text=f"Your final score: {score}/{total}", font=("Arial", 18), bg=MAROON, fg=WHITE).pack(pady=10)

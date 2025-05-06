@@ -45,3 +45,6 @@
 import tkinter as tk
 from tkinter import messagebox
 import random
+
+MAROON, GOLD, YELLOW, WHITE = "#800000", "#D4AF37", "#FFD700", "#FFFFFF"
+CHOICES = ["A", "B", "C", "D"]

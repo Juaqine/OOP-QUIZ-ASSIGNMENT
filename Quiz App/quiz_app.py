@@ -113,3 +113,5 @@ class QuizApp:
         if self.current >= self.total:
             EndScreen(self.root, self.score, self.total)
             return
+        q = self.questions[self.current]
+        self.question_label.config(text=q["question"])

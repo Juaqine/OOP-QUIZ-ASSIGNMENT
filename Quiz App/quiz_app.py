@@ -91,3 +91,4 @@ class QuizApp:
 
         self.root.title("Quiz Wars")
         self.root.geometry("700x500")
+        self.root.config(bg=MAROON)

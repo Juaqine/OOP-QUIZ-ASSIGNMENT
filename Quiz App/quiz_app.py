@@ -108,3 +108,6 @@ class QuizApp:
                             bg=GOLD, fg=MAROON, command=lambda c=ch: self.check_answer(c))
             btn.grid(row=0, column=i, padx=10)
             self.buttons[ch] = btn
+
+    def show_question(self):
+        if self.current >= self.total:

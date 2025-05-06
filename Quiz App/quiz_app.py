@@ -132,3 +132,6 @@ class EndScreen:
     def __init__(self, root, score, total):
         for widget in root.winfo_children():
             widget.destroy()
+
+        root.title("End of Quiz")
+        root.config(bg=MAROON)

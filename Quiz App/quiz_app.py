@@ -102,3 +102,4 @@ class QuizApp:
 
     def build_buttons(self):
         frame = tk.Frame(self.root, bg=MAROON)
+        frame.pack(pady=10)

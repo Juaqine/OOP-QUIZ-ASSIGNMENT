@@ -81,3 +81,4 @@ def load_questions(filename):
         questions.append(new_data)
 
     random.shuffle(questions)
+    return questions

@@ -141,3 +141,6 @@ class EndScreen:
 
         tk.Button(root, text="Quit", font=("Arial", 16), bg=GOLD, fg=MAROON, command=root.quit).pack(pady=20)
         tk.Button(root, text="Restart Quiz", font=("Arial", 16), bg=GOLD, fg=MAROON, command=self.restart).pack(pady=10)
+
+    def restart(self):
+        questions = load_questions("quiz_data.txt")

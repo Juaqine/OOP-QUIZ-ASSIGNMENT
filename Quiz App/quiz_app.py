@@ -166,3 +166,7 @@ class TitleScreen:
         if not questions:
             messagebox.showerror("Error", "No questions found in quiz_data.txt")
             return
+        self.root.destroy()
+        root = tk.Tk()
+        QuizApp(root, questions)
+        root.mainloop()

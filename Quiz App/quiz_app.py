@@ -107,3 +107,4 @@ class QuizApp:
             btn = tk.Button(frame, text=ch, width=12, height=2, font=("Arial", 14),
                             bg=GOLD, fg=MAROON, command=lambda c=ch: self.check_answer(c))
             btn.grid(row=0, column=i, padx=10)
+            self.buttons[ch] = btn

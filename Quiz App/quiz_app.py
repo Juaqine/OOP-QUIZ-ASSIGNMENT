@@ -94,3 +94,4 @@ class QuizApp:
         self.root.config(bg=MAROON)
 
         self.question_label = tk.Label(root, font=("Arial", 18), bg=MAROON, fg=YELLOW, wraplength=550)
+        self.question_label.pack(pady=30)

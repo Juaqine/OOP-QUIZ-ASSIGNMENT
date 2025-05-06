@@ -66,9 +66,10 @@ def load_questions(filename):
                 key, value = line.split(": ", 1)
                 data["question" if key == "Q" else key.lower()] = value.strip().upper() if key == "ANSWER" else value.strip()
 
+ 
         choices = [(ch, data[ch.lower()]) for ch in CHOICES]
         random.shuffle(choices)
-        
+
         new_data = {"question": data["question"]}
         correct_text = data[data["answer"].lower()]
         for i, (label, text) in enumerate(choices):
@@ -76,3 +77,5 @@ def load_questions(filename):
             new_data[new_label.lower()] = text
             if text == correct_text:
                 new_data["answer"] = new_label
+
+        questions.append(new_data)

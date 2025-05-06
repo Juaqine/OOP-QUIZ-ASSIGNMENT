@@ -144,3 +144,6 @@ class EndScreen:
 
     def restart(self):
         questions = load_questions("quiz_data.txt")
+        if not questions:
+            messagebox.showerror("Error", "No questions found in quiz_data.txt")
+            return

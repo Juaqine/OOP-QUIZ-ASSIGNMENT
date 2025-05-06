@@ -17,7 +17,7 @@
     #Add a label to display the current question
     #Create four buttons for answer choices (A to D)
         #Each button checks the selected answer when clicked
-    # how the first question as soon as the app starts
+    #Show the first question as soon as the app starts
     #Function to load and display the current question:
         #If all questions are finished, show the end screen
         #Otherwise, show the question and update the buttons with choices

@@ -87,3 +87,4 @@ class QuizApp:
     def __init__(self, root, questions):
         self.root, self.questions = root, questions
         self.score = self.current = 0
+        self.total = len(questions)

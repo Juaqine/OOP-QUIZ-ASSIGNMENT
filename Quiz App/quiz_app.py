@@ -128,3 +128,7 @@ class QuizApp:
         self.current += 1
         self.show_question()
 
+class EndScreen:
+    def __init__(self, root, score, total):
+        for widget in root.winfo_children():
+            widget.destroy()

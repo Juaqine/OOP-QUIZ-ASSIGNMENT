@@ -53,3 +53,5 @@ def load_questions(filename):
     try:
         with open(filename, "r") as f:
             raw = f.read().strip().split("=== QUESTION START ===")
+    except FileNotFoundError:
+        return []

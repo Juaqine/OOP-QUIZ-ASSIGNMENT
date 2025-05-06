@@ -157,3 +157,6 @@ class TitleScreen:
         root.title("Quiz Wars")
         root.geometry("600x400")
         root.config(bg=MAROON)
+
+        tk.Label(root, text="Quiz Wars", font=("Arial", 32, "bold"), bg=MAROON, fg=YELLOW).pack(pady=100)
+        tk.Button(root, text="Start Quiz", font=("Arial", 16), bg=GOLD, fg=MAROON, command=self.start).pack(pady=20)

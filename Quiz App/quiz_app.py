@@ -55,3 +55,9 @@ def load_questions(filename):
             raw = f.read().strip().split("=== QUESTION START ===")
     except FileNotFoundError:
         return []
+
+    questions = []
+    for block in raw:
+        if "Q:" not in block:
+            continue
+        

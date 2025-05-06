@@ -88,3 +88,5 @@ class QuizApp:
         self.root, self.questions = root, questions
         self.score = self.current = 0
         self.total = len(questions)
+
+        self.root.title("Quiz Wars")

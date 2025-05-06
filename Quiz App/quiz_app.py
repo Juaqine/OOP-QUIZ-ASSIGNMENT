@@ -111,3 +111,5 @@ class QuizApp:
 
     def show_question(self):
         if self.current >= self.total:
+            EndScreen(self.root, self.score, self.total)
+            return
